@@ -16,7 +16,7 @@ namespace ConsoleApp1
             int a = int.Parse(S1);
             Console.WriteLine("Введiть друге число");
             string S2 = Console.ReadLine();
-            int b = int.Parse(S2);
+            int b = int.Parse(S2);//
             Example(a, b);
             Console.ReadLine();
         }
